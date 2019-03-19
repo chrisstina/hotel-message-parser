@@ -1,0 +1,25 @@
+{
+  "name": "hotel-mailclient",
+  "version": "0.0.1",
+  "description": "Mail client for hotel providers: receives, parses all hotel correspondence and notifies all subscribers via Gearman",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chriss",
+  "license": "ISC",
+  "dependencies": {
+    "content-disposition": "^0.5.2",
+    "gearman-node": "^2.0.13",
+    "knex": "^0.14.6",
+    "mailparser": "^2.2.0",
+    "mysql": "^2.15.0",
+    "node-pop3": "^0.1.0",
+    "poplib": "^0.1.7",
+    "restify": "^7.2.0",
+    "restify-errors": "^6.0.0",
+    "restify-plugins": "^1.6.0",
+    "shortid": "^2.2.8",
+    "winston": "^3.0.0"
+  }
+}
